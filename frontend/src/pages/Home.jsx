@@ -1,9 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
-<<<<<<< HEAD
 import { userDataContext } from '../context/UserContext'
-=======
-import { userDataContext } from '../context/userContext'
->>>>>>> 1e71031c1869f6dea2fd69732c629e3451a1d9e6
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import aiImg from "../assets/ai.gif"
@@ -200,11 +196,8 @@ useEffect(() => {
 
 
   return (
-<<<<<<< HEAD
     <div className='w-full h-[100vh] bg-gradient-to-t from-[black] to-[#02023d] flex justify-center items-center flex-col gap-[15px] overflow-hidden'>
-=======
-    <div className='w-full h-[100vh] bg-gradient-to-t from-[black] to-[#02023d] flex justify-center items-center flex-col gap-[15px]'>
->>>>>>> 1e71031c1869f6dea2fd69732c629e3451a1d9e6
+
       <CgMenuRight className='lg:hidden text-white absolute top-[20px] right-[20px] w-[25px] h-[25px]' onClick={()=>setHam(true)}/>
       <div className={`absolute lg:hidden top-0 w-full h-full bg-[#00000053] backdrop-blur-lg p-[20px] flex flex-col gap-[20px] items-start ${ham?"translate-x-0":"translate-x-full"} transition-transform`}>
  <RxCross1 className=' text-white absolute top-[20px] right-[20px] w-[25px] h-[25px]' onClick={()=>setHam(false)}/>
