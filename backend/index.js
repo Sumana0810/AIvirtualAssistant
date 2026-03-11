@@ -11,9 +11,13 @@ import geminiResponse from "./gemini.js"
 
 const app=express()
 app.use(cors({
-    origin:"https://ai-cq1v.onrender.com",
-    credentials:true
-}))
+    origin: [
+        "http://localhost:5173",
+        "https://ai-virtual-assistant-d5m4.onrender.com",
+        "https://ai-cq1v.onrender.com"
+    ],
+    credentials: true
+}));
 const port=process.env.PORT || 5000
 app.use(express.json())
 app.use(cookieParser())
