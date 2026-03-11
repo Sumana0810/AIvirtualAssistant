@@ -1,9 +1,5 @@
 import React, { useContext, useState } from 'react'
-<<<<<<< HEAD
 import { userDataContext } from '../context/UserContext'
-=======
-import { userDataContext } from '../context/userContext'
->>>>>>> 1e71031c1869f6dea2fd69732c629e3451a1d9e6
 import axios from 'axios'
 import { MdKeyboardBackspace } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
