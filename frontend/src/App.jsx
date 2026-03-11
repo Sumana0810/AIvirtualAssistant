@@ -3,11 +3,7 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import SignUp from './pages/SignUp'
 import SignIn from './pages/SignIn'
 import Customize from './pages/Customize'
-<<<<<<< HEAD
 import { userDataContext } from './context/UserContext'
-=======
-import { userDataContext } from './context/userContext'
->>>>>>> 1e71031c1869f6dea2fd69732c629e3451a1d9e6
 import Home from './pages/Home'
 import Customize2 from './pages/Customize2'
 
